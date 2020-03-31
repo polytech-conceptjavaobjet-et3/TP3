@@ -349,14 +349,6 @@ Avec :
 > La [covariance](https://www.eclipse.org/aspectj/doc/released/adk15notebook/covariance.html) est le fait de permettre le changement du type de retour d'une méthode lors de sa redéfinition. Le nouveau type doit être une sous-classe du type prédéfini.
 > `ComplexeMemoire` étant la classe fille de `Complexe`, le changement de type ne pose pas de problème.
 
-pour les méthodes. Il est donc permis de modifier le type de retour d'une méthode pour une sous-classe du type prédéfini
-
-On appelle
-covariance
-le fait de modifier le type de retour d’une
-méthode lors de sa redéfinition. En Java, elle a été introduite dans
-la version : Java 1.
-
 - 3#12.2 Méthodes d'addition et de multiplication dans `ComplexeMemoire` :
 
 > ```Java
