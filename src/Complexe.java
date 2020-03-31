@@ -1,7 +1,7 @@
 public class Complexe 
 {
-	private double imaginaire;
-	private double reel;
+	private final double imaginaire;
+	private final double reel;
 	
 	/**
 	 * Constructeur de la classe {@link Complexe}
