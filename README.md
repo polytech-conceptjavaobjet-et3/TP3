@@ -448,23 +448,23 @@ Avec :
 > 		return ("Memoire individuelle :" + memoireIndividuelle.toString());
 > 	}
 > 	
-> /**
->  * Cette méthode permet d'écrire une nouvelle opération dans la mémoire collective des nombres complexes
->  * @param operation La nouvelle opération à écrire dans la mémoire collective des nombres complexes
->  */
-> private static void ecrireMemoireCollective(String operation)
-> {
-> 	memoireCollective.append("\n" + operation);
-> }
-> 
-> /**
->  * Cette méthode permet de consulter la mémoire collective des nombres complexes
->  * @return La mémoire collective des nombres complexes
->  */
-> public static String consulterMemoireCollective()
-> {
-> 	return ("Memoire collective :" + memoireCollective.toString());
-> }
+> 	/**
+> 	 * Cette méthode permet d'écrire une nouvelle opération dans la mémoire collective des nombres complexes
+> 	 * @param operation La nouvelle opération à écrire dans la mémoire collective des nombres complexes
+> 	 */
+> 	private static void ecrireMemoireCollective(String operation)
+> 	{
+> 		memoireCollective.append("\n" + operation);
+> 	}
+> 	
+> 	/**
+> 	 * Cette méthode permet de consulter la mémoire collective des nombres complexes
+> 	 * @return La mémoire collective des nombres complexes
+> 	 */
+> 	public static String consulterMemoireCollective()
+> 	{
+> 		return ("Memoire collective :" + memoireCollective.toString());
+> 	}
 > 	
 > 	@Override
 > 	public ComplexeMemoire additionner(Complexe autreComplexe)
